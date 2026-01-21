@@ -141,3 +141,9 @@ body {
     width: 280px;
   }
 }
+.parts{
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;   /* OBLIGATOIRE */
+  white-space: nowrap;
+}
